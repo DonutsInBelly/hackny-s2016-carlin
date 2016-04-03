@@ -46,7 +46,7 @@ app.post('/alert', function(req, res) {
 	if(error) {
 	    console.log(error.message);
 	}
-    );
+    });
 });
 
 app.listen(8080);
