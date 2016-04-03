@@ -1,0 +1,17 @@
+#!/bin/bash
+
+mkdir build
+cd build
+git clone https://github.com/dominusbelli/hackny-s2016-demorepo.git
+cd hackny-s2016-demorepo
+javac app.java
+
+if [ $? -eq 0 ]; then
+    echo "Compiled Successfully!"
+else:
+    echo "Compiler Error!!!"
+    curl --request POST localhost:8080/alert
+fi
+
+cd ../../
+rm -rf build/

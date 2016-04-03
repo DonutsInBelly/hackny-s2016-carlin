@@ -1,0 +1,6 @@
+#!/bin/bash
+
+inotifywait -m logs/ -e create |
+while read path action file; do
+./buildTest
+done
