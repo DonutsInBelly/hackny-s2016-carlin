@@ -1,0 +1,24 @@
+{
+  "name": "hackny-s2016-carlin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominusbelli/hackny-s2016-carlin.git"
+  },
+  "author": "Carlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominusbelli/hackny-s2016-carlin/issues"
+  },
+  "homepage": "https://github.com/dominusbelli/hackny-s2016-carlin#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "twilio": "^2.9.1"
+  }
+}
