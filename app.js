@@ -30,7 +30,7 @@ app.post('/push', function(req, res) {
 
 app.post('/alert', function(req, res) {
     client.messages.create({
-	body: config.pusher.name + " destroyed all your work, came into your house knocked your shit over. :(",
+	body: config.pusher.name + " broke the build. What a jerk! :(",
 	to: config.users,
 	from: "+14432017260"
     }, function(error, message){
